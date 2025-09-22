@@ -21,7 +21,7 @@ variable "environment" {
 ##################################
 variable  "instance_type" {
   type        = string
-  default     = "t2.micro"
+  default     = "t3.micro"
   description = "The instance type to use for the instance (restricted to t2.micro)."
 
   validation {
